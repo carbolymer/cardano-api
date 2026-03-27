@@ -1,0 +1,5 @@
+description: Added some haddocks
+kind:
+- breaking
+pr: 3
+project: cardano-api

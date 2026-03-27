@@ -446,6 +446,7 @@ module Cardano.Api.Tx
     -- @
     -- inputs = outputs + fee
     -- @
+    -- somethign something
     --
     -- In this equation, the inputs would include the minted tokens, and the outputs would include the
     -- burned tokens.
