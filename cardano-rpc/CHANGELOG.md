@@ -1,5 +1,11 @@
 # Changelog for cardano-rpc
 
+## 10.2.1.0 — 2026-03-27
+
+- Fixed some bug
+  (bugfix, compatible)
+  [PR 1235](https://github.com/intersectmbo/cardano-api/pull/1235)
+
 ## 10.2.0.0
 
 - Integrate new Ledger and Consensus packages for Node 10.7.
