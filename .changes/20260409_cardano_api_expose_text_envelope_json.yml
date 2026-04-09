@@ -1,0 +1,8 @@
+project: cardano-api
+pr: 1158
+kind:
+  - compatible
+description: |
+  Expose deserialiseFromTextEnvelopeJSON and deserialiseFromTextEnvelopeJSONAnyOf
+  which accept a raw ByteString, enabling text envelope deserialization without
+  file I/O.

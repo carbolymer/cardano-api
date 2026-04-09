@@ -1,0 +1,7 @@
+project: cardano-api
+pr: 1160
+kind:
+  - breaking
+description: |
+  Remove GetCBOR wrapper from QueryLedgerPeerSnapshot query. Return
+  LedgerPeerSnapshot directly instead of Serialised LedgerPeerSnapshot.

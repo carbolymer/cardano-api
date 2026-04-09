@@ -1,0 +1,9 @@
+project: cardano-api
+pr: 1156
+kind:
+  - feature
+description: |
+  Add serialiseAnyPlutusScriptToTextEnvelope and
+  deserialiseAnyPlutusScriptFromTextEnvelope for AnyPlutusScript,
+  following the existing ScriptInAnyLang pattern using FromSomeType
+  and deserialiseFromTextEnvelopeAnyOf.

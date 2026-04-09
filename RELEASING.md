@@ -20,7 +20,7 @@ The action ([`.github/workflows/release.yml`](.github/workflows/release.yml)) wi
 - Create a `release/<package>-<version>` branch
 - Run `herald batch` -- update changelog, bump `.cabal` version, remove consumed changelog fragments
 - Commit, tag, and push the branch and tag
-- Open a release PR against the default branch
+- Open a release PR against the target branch
 - Add a `release` changelog fragment for the next cycle
 
 The release PR URL will be printed at the end of the workflow execution.

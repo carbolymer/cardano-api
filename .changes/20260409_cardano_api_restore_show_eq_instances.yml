@@ -1,0 +1,6 @@
+project: cardano-api
+pr: 1151
+kind:
+  - compatible
+description: |
+  Restored `Show` and `Eq` instances by implementing them trivially.

@@ -1,0 +1,6 @@
+project: cardano-api
+pr: 1147
+kind:
+  - breaking
+description: |
+  Make `NoScriptDatum` uninhabitable by removing its constructor

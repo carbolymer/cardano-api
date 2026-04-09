@@ -41,9 +41,8 @@ jobs:
             trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
             substituters = https://cache.iog.io/ https://cache.nixos.org/
 
-      - uses: input-output-hk/cardano-dev/herald/.github/actions/release@mgalazyn/release-tool
+      - uses: input-output-hk/cardano-dev/herald/.github/actions/release@main
         with:
           package: ${{ inputs.package }}
           version: ${{ inputs.version }}
           base-branch: ${{ inputs.branch || github.ref_name }}
-          herald-ref: github:input-output-hk/cardano-dev/mgalazyn/release-tool

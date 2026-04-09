@@ -1,0 +1,8 @@
+project: cardano-api
+pr: 1153
+kind:
+  - breaking
+  - bugfix
+description: |
+  Replace fromJust in votingScriptWitnessSingleton with proper Either-based
+  error handling via new VotingError sum type

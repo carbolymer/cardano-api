@@ -1,7 +1,7 @@
 <!--
 Every PR needs a changelog fragment in `.changes/`.
 Create one from the template at [`.changes/_TEMPLATE.yml`](.changes/_TEMPLATE.yml),
-or use [`herald`](https://github.com/input-output-hk/cardano-dev/tree/main/herald) for interactive creation.
+or use `herald` for interactive creation.
 Install herald: nix run github:input-output-hk/cardano-dev#herald
 
 Interactive:
@@ -9,9 +9,6 @@ Interactive:
 
 Non-interactive:
   herald new -p cardano-api -k bugfix -d "Fix something" --pr 1234
-
-Available projects: cardano-api, cardano-api-gen, cardano-rpc, cardano-wasm
-Available kinds: breaking, feature, compatible, bugfix, optimisation, refactoring, test, maintenance, release, documentation
 
 See .herald.yml for full configuration.
 -->

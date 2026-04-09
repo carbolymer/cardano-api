@@ -1,0 +1,6 @@
+project: cardano-api
+pr: 1164
+kind:
+  - maintenance
+description: |
+  Update herald fragment template to list all available projects and kinds.

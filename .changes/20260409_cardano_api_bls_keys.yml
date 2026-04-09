@@ -1,0 +1,6 @@
+project: cardano-api
+pr: 1148
+kind:
+  - feature
+description: |
+  Added support for BLS keys.

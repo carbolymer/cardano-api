@@ -1,0 +1,6 @@
+project: cardano-api
+pr: 1161
+kind:
+  - feature
+description: |
+  Add support for BLS proofs of possession
